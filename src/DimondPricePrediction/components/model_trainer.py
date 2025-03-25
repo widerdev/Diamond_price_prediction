@@ -38,7 +38,7 @@ class ModelTrainer:
             'Elasticnet':ElasticNet()
         }
             
-            model_report:dict=evaluate_model(X_train,y_train,X_test,y_test,models)
+            model_report:dict=evaluate_model(X_train,y_train,X_test,y_test,models) #inside util.py
             print(model_report)
             print('\n====================================================================================\n')
             logging.info(f'Model Report : {model_report}')
