@@ -10,6 +10,7 @@ with open(file,'w') as f:
     pass
 """
 
+
 from src.DimondPricePrediction.pipelines.prediction_pipeline import CustomData
 
 customdataobj = CustomData(1.52,62.2,58.0,7.27,7.33,4.55,"Premium","F","VS2")
