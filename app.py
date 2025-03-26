@@ -2,11 +2,11 @@ from src.DimondPricePrediction.pipelines.prediction_pipeline import CustomData,P
 
 from flask import Flask,request,render_template,jsonify
 
-
+#object of flask
 app = Flask(__name__) # pass current module
 
-# make routes
 
+# home route
 @app.route('/')
 def home_page():
     return render_template("index.html") #returning this template (route)
